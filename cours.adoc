@@ -3,10 +3,12 @@
 // SPDX-License-Identifier: CC-BY-SA-4.0
 
 = COURS DE PROGRAMMATION
-Lénaïc JACQUEMIN <kerubere@hotmail.fr>
+Lénaïc JACQUEMIN <kerubere@hotmail.fr>; Ayyoub AYYADI <aayyadi@hopimedical.com>
 
+== Licence
 
-== Copyright
+Copyright: Ayyoub AYYADI (c) 2022-2022
+           Lénaïc JACQUEMIN (c) 2022-2022
 
 Copyright: Lénaïc JACQUEMIN (c) 2022-2022
 
