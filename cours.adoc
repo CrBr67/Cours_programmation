@@ -1,0 +1,131 @@
+// SPDX-FileCopyrightText: 2023 CrBr67 <lenaicjacquemin@outlook.fr>
+//
+// SPDX-License-Identifier: CC-BY-SA-4.0
+
+= COURS DE PROGRAMMATION
+Lénaïc JACQUEMIN <kerubere@hotmail.fr>
+
+
+== Copyright
+
+Copyright: Lénaïc JACQUEMIN (c) 2022-2022
+
+== Utilitaire
+
+=== Windows subsystem for Linux
+
+Windows subsystem for lunix est un system pour faire fonctionner linux sous
+ windows. 
+Il permet d'installer et mettre à jour diverses distributions linux
+ comme Debian.
+
+L'installation se fait avec la commande: `wsl--install -d Debian` se fait dans
+un powershell administrateur
+Ensuite pour le lancer il suffit de taper `wsl` ou l'épingler dans la barre
+ des tâches 
+
+(``backquote : afficher comme `du code` en quote)
+
+en italique _italique_
+
+*en important*
+
+`:set colorcolumn=80` mettre une colonne pour délimiter le texte
+
+=== Print working directory
+
+commande `pwd`: permet d''afficher le nom du dossier courant
+
+=== Change directory
+
+commande `cd`: permet d'acceder au répertoire désigné, le répertoire parent
+s'appelle `..`
+si on ne précise pas de dossier on retourne dans le dossier home
+
+=== Manuel
+
+commande `man`: permet d'accèder au manuel de différentes commandes
+`man ls` pour liste des commandes manuelles
+`man man` pour avoir détails sur utilisation manuelle
+
+=== Liste
+
+commande `ls`: permet de lister le contenu du dossier
+
+=== Mode admin
+
+commande `sudo`: permet de lancer une commande en mode admin en plaçant 
+`sudo` avant. 
+Exemple `sudo apt install "+commande/programme"`
+
+=== Make directory
+
+commande `mkdir`: permet de créer un dossier dans le dossier actuel ou
+en entrant 
+le chemin absolu (adresse)
+
+=== Remove directory
+
+commande `rmdir`: permet de supprimer un dossier dans le dossier courant 
+(actuel)
+
+=== Remove fichier
+
+commande `rm` "+nomfichier": permet de supprimer un fichier
+(pour supprimer un type de fichier (tous) on peut faire `rm  *.extension`,
+rm *.html par exemple
+
+=== Arborescence dossier
+
+commande `tree`: permet de montrer l'arborescence des différents dossiers
+
+=== VI
+
+commande `vi`: traitement de texte `vi "+nomficher.extension"`, il y a un 
+mode commande (on y accède avec la touche "echap") et un mode insertion où 
+l'on peut écrire (touche "i" dans mode commande pour y accèder)
+
+(`ZZ` ou `:q` pour quitter, `:w` pour sauvegarder,
+`:wq` pour quitter en en enregistrant, 
+`y` pour copier une selection, `yy` copier une ligne,
+`p` coller,
+`u` undo, `:x` supprimer)
+
+=== Tuto VI
+
+commande `vim tutor`: lancer un tutoriel pour apprende commande de base de `vi`
+
+=== Lecture texte 
+
+commande `cat "+nomficher"`: lire un fichier texte uniquement
+
+commande `ascii`: permet de transformer un fichier .adoc en html 
+(ex: ascii fichier.adoc)
+
+=== Mise-à-jour
+
+commande `sudo apt update`: pour mettre à jour les programmes
+
+=== Aptitude
+
+commande `aptitude`: programme pour installer/m-à-j de nouveaux programmes
+(/ pour recherche programme)
+
+=== Midnight Commander
+
+commande `mc`: lance midnight commander qui permet de visualiser les dossiers
+en arborescence
+
+=== Kill commande
+
+commande "contrôle+c": permet de tuer un programme en cours
+
+=== Makefile
+
+Commande `Make`: permet de créer un makefile qui définit ce qui sera utilisé en
+parallèle (les ressources) pour le fichier, mais aussi les règles
+(vi Makefile pour le modifier ensuite, une fois qu'il a été créé))
+
+=== Evince
+
+Commande `evince`: lecteur de fichier pdf
