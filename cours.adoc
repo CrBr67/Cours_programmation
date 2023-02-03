@@ -131,3 +131,40 @@ parallèle (les ressources) pour le fichier, mais aussi les règles
 === Evince
 
 Commande `evince`: lecteur de fichier pdf
+
+
+
+GITHUB
+
+=== git init
+
+Commande pour faire d'un dossier normal un dossier git
+
+=== git clone
+
+Commande pour cloner un dossier git pour démarrer avec une copier historique
+
+=== gitk
+
+Outil graphique qui permet de voir l'historique
+
+=== git add
+
+Permet d'ajouter des fichiers dans la liste des fichiers dans l'historique
+
+=== git commit
+
+Permet de valider ce qui a été ajouté et d'en faire une version validée
+
+=== git push
+
+Permet de pousser sur un autre serveur toutes les versions qui ont été validées
+
+=== git fetch
+
+Permet de récupérer depuis un serveur toutes les versions validées sur ce serveur
+
+=== git merge
+
+Permet de fusionner les versions de différentes branches (faites par différentes personnes)
+
